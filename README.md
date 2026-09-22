@@ -25,7 +25,7 @@ most critically reviled?
    one row per (movie, genre) pair — enabling genre-level aggregation via JOIN.
 3. **Loaded** into MySQL and analyzed with SQL.
 
-Script: [`CleanMovies.py`](CleanMoviesData.py) · Queries: [`queries.sql`](queries.sql)
+Script: [`CleanMoviesData.py`](CleanMoviesData.py) · Queries: [`queries.sql`](queries.sql)
 
 ## Key Findings
 
