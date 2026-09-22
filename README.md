@@ -25,7 +25,7 @@ most critically reviled?
    one row per (movie, genre) pair — enabling genre-level aggregation via JOIN.
 3. **Loaded** into MySQL and analyzed with SQL.
 
-Script: [`CleanMovies.py`](CleanMovies.py) · Queries: [`queries.sql`](queries.sql)
+Script: [`CleanMovies.py`](CleanMoviesData.py) · Queries: [`queries.sql`](queries.sql)
 
 ## Key Findings
 
@@ -33,7 +33,7 @@ Script: [`CleanMovies.py`](CleanMovies.py) · Queries: [`queries.sql`](queries.s
 Horror has the **highest critical failure rate of any genre (39.1%** of films rated 
 below 5.5) and the **lowest acclaim rate (2.5%)** — yet it ranks among the best 
 performers on return on investment. The mean/median ROI gap confirms it: Horror's 
-average ROI is roughly [X]× its median, meaning the genre's returns are carried by a 
+average ROI is roughly 4× its median, meaning the genre's returns are carried by a 
 small number of outliers while the typical film is unremarkable.
 
 **Interpretation:** Horror operates like a portfolio strategy, not a per-film one. 
