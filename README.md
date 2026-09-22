@@ -12,7 +12,7 @@ most critically reviled?
 ## Data
 
 - **Source:** [TMDB 5000 Movies](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) (Kaggle)
-- **Size:** 4,803 films, 20 columns
+- **Size:** 4,803 films, 20 columns, trimmed down to 10
 - **Scope:** films with a recorded runtime and user rating; financial analysis limited 
   to films with a reported budget and revenue above $100K
 
